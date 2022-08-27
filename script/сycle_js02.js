@@ -58,12 +58,12 @@ for(let i = 0; i < arr8.length; i++){
 console.log(arr8);
 /////////////////99999999999999
 const arr9 = [1, 2, 3, 4, 5];
-
-let sumary = 0;
-   for(let i = 0; i < arr9.length; i++){
-       sumary +=  arr9[i];
-   }
-   console.log(sumary);
+ let res = arr9.reduce((a,b) => a += b);
+// let sumary = 0;
+//    for(let i = 0; i < arr9.length; i++){
+//        sumary +=  arr9[i];
+//    }
+   console.log(res);
 
 /////////////10 10 10 10 10 10 10 
 
